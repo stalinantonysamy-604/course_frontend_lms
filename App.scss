@@ -1,0 +1,200 @@
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.scrollbar-gray {
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #8D95A4;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #8D95A4;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.scrollbar-light-gray {
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #d2d0d0;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #d2d0d0;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.scrollbar-big {
+  &::-webkit-scrollbar {
+    width: var(--sb-big-size);
+  }
+  &::-webkit-scrollbar {
+    width: var(--sb-big-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.react-flow__node {
+  
+  color: #2b3674;
+  background: #fff;
+  border-radius: 12px;
+  //width: 161px;
+  max-height: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 8px 24px #959da533;
+  padding: 10px 33px !important;
+  text-align: center;
+  min-width: 210px;
+}
+
+
+
+.react-flow__node h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.react-flow__node .react-flow__handle.connectable {
+  background: #1924d0;
+  border: 0;
+}
+
+.WorkflowViewer .react-flow {
+  height: 254px !important;
+  background-color: rgb(245, 245, 245) !important;
+  border-radius: 8px !important;
+}
+
+.WorkflowViewer .react-flow__node-toolbar {
+  display: flex;
+  gap: 8px;
+}
+
+.WorkflowViewer .react-flow__node-toolbar button {
+  border-radius: 50%;
+  border: 1px solid #1924d0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WorkflowViewer .react-flow__node-toolbar button svg {
+  padding: 4px;
+  color: #1924d0;
+}
+
+.WorkflowViewer .react-flow__node-toolbar button.workflowSave {
+  border-radius: 8px !important;
+  padding: 5px 10px !important;
+  font-size: 12px;
+  background: #1924d0;
+  color: #fff;
+}
+
+.WorkflowViewer .nodeInput {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100% !important;
+}
+
+.WorkflowViewer .nodeInput input {
+  width: 100% !important;
+  border: 0;
+  outline: 0;
+  color: #2b3674;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}

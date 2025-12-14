@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/dm-sans/index.css";
+
+html, body {
+    border: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    transform: scale(1);
+    background: linear-gradient(135deg,
+            rgb(240, 245, 255) 0%,
+            rgb(245, 245, 255) 40%,
+            rgb(250, 242, 255) 70%,
+            rgb(255, 240, 255) 100%);
+
+    --sb-track-color: white;
+    --sb-thumb-color: #40444d;
+    --sb-size: 5px;
+    --sb-big-size: 8px;
+
+}
+
+body{
+    overflow: hidden;
+}
+/* *.container{
+    max-width: none;
+} */

@@ -1,0 +1,32 @@
+.box {
+  background-image: repeating-linear-gradient(90deg, #c7cbe0, #c7cbe0 22px, transparent 22px, transparent 26px), repeating-linear-gradient(180deg, #c7cbe0, #c7cbe0 22px, transparent 22px, transparent 26px), repeating-linear-gradient(90deg, #c7cbe0, #c7cbe0 22px, transparent 22px, transparent 26px), repeating-linear-gradient(180deg, #c7cbe0, #c7cbe0 22px, transparent 22px, transparent 26px);
+  background-position: left top, right top, left bottom, left top;
+  background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+  background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #F2F3F4;
+  border-collapse: collapse;
+  vertical-align: top;
+  text-align: left;
+}
+
+.overflow-unset {
+  overflow: unset;
+}
+
+.react-flow__node {
+  background: #ffffff;
+  padding: 10px 53px !important;
+  font-size: 16px;
+  color: #2b3674;
+  font-weight: 700;
+  height: 45px;
+  text-align: center;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  border-radius: 12px;
+  min-width: 210px;
+}
